@@ -4,16 +4,16 @@ body {
 }
 
 body {
-    background-color: black;
+    background-color:white;
     font-family: Arial;
-    background-color: #111;
+    background-color: #000;
 }
 
 .page {
     width: 80%;
     min-height: 100vh;
     margin: auto;
-    background-color: #111;
+    background-color: #000;
 
     display: flex;
     flex-direction: column;
@@ -107,4 +107,59 @@ footer {
 
 .games p {
     color: white !important;
+}
+
+
+nav a {
+    color: white;
+    transition: opacity 0.2s;
+}
+
+nav a:hover {
+    opacity: 0.5;
+}
+
+.discord{
+    color: white;
+    transition: opacity 0.2s;
+}
+
+.discord:hover{
+    opacity: 0.5;
+}
+
+.gamejolt{
+    color: white;
+    transition: opacity 0.2s;
+}
+
+.gamejolt:hover{
+    opacity: 0.5;
+}
+
+.itchio{
+    color: white;
+    transition: opacity 0.2s;
+}
+
+.itchio:hover{
+    opacity: 0.5;
+}
+
+.youtube{
+    color: white;
+    transition: opacity 0.2s;
+}
+
+.youtube:hover{
+    opacity: 0.5;
+}
+
+.icon{
+    color: white;
+    transition: opacity 0.2s;
+}
+
+.icon:hover{
+    opacity: 0.5;
 }
