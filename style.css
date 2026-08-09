@@ -105,6 +105,6 @@ footer {
     gap: 20px;
 }
 
-.games p{
-    color:white
+.games p {
+    color: white !important;
 }
